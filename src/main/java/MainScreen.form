@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainScreen">
+  <grid id="27dc6" binding="mainPanal" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="800"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="800"/>
+      <preferredSize width="600" height="800"/>
+    </properties>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <component id="cf105" class="javax.swing.JButton" binding="driverButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="5" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Driver"/>
+        </properties>
+      </component>
+      <component id="aefc" class="javax.swing.JButton" binding="customerButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Customer"/>
+        </properties>
+      </component>
+      <component id="64ce1" class="javax.swing.JButton" binding="adminButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Admin"/>
+        </properties>
+      </component>
+      <component id="75a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="        IMdrive"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
